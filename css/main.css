@@ -35,6 +35,7 @@ body{
     flex-direction: column;
     height:100%;
     margin: 0;
+    color: rgb(212, 212, 212);
 }
 
 .neon{
@@ -86,25 +87,60 @@ a.neon:hover{
     animation: glitch1 8s infinite alternate;
 }
 
-nav{
+
+/*nav{
     text-align: center;
     background: rgba(30,30,30,0.9);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+}*/
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 4 0;
+    overflow: hidden;
+    background-color: #1e1e1e;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+  
+li.menu {
+    float: right;
+}
+  
+li.menu a {
+    display: block;
+    text-align: center;
+    padding: 8px 32px;
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+  
+li.menu a:hover {
+    border-bottom: 1px solid rgb(80,80,80);
 }
 
-nav ul{
+li.menu a.active {
+    border-bottom: 1px solid rgb(212,212,212);
+}
+
+/*nav ul{
     list-style: none;
     padding: 0px;
+        position: -webkit-sticky; /* Safari */
+/*        position: sticky;
+        top: 0;
 }
 
 nav li{
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
-}
+}*/
 
 #lander {
   width: 100vw;
