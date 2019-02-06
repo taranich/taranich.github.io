@@ -3,7 +3,7 @@ layout: default
 ---
 	{% for post in paginator.posts %}
 		<ul class="write-ups">
-			<li><span>{{ post.date | date: "%Y-%d-%m" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			<li><span>{{ post.date | date: "%Y-%d-%m" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} <br> {{ post.content | strip_html | truncatewords:20}}...</a></li>
 		</ul>
 	{% endfor %}
 
