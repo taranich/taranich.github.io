@@ -2,7 +2,9 @@
 layout: default
 ---
 	{% for post in paginator.posts %}
-		<p><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+		<ul class="write-ups">
+			<li><span>{{ post.date | date: "%Y-%d-%m" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		</ul>
 	{% endfor %}
 
 {% if paginator.total_pages > 1 %}
