@@ -1,29 +1,39 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<header>
+	<title>Andriy Taranov</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<script type="text/javascript">
+		var _paq = window._paq || [];
+		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+		  var u="//corpse.taranich.org/piwik/";
+		  _paq.push(['setTrackerUrl', u+'matomo.php']);
+		  _paq.push(['setSiteId', '1']);
+		  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+		})();
+	  </script>
+</header>
+<body>
+	<div id="lander"></div>
+	<div class="textcontainer">
+		<ul class="menu">
+			<li class="menu"><a href="index.html">write-ups</a></li>
+			<li class="menu"><a class="active" href="index.html">@</a></li>
+		</ul>
+		<div>
+			{{content}}
+		</div>
+	</div>
+	<footer>
+			<ul>
+				<li class="left"><span class="ua blue">/</span><span class="ua yellow">/</span> 2017 Crafted by <a href="http://www.mavpa.pro">mavpa</a></li>
+				<li class="right">Designed by <a href="http://www.taranich.org">professional</a></li>
+			</ul>
+		</footer>
+	<!--script src='http://threejs.org/build/three.min.js'></script>
+	<script src='./scripts/LandingSimulator.js'></script-->
+</body>
+</html>
