@@ -119,8 +119,13 @@ li.menu a {
     text-decoration: none;
     color: rgb(212, 212, 212);
 }
+
+li.write-ups a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
   
-li.menu a:hover {
+li.menu li.write-ups a:hover {
     border-bottom: 1px solid rgb(80,80,80);
 }
 
