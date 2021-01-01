@@ -1,6 +1,6 @@
 ---
 layout: default
-active_page: write-ups
+active_page: main-page
 ---
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
@@ -41,7 +41,7 @@ active_page: write-ups
 			<li class="write-up-entry">
           <a class="write-up-link" href="{{ post.url }}">
               <div class="write-up-date">{{ post.date | date: "%Y.%d.%m" }} » 
-                <div class="write-up-title">{{ post.title }}</div>
+                <span class="write-up-title">{{ post.title }}</span>
               </div>
           </a>
           <div class="write-up-excerpt">{{ post.content | markdownify | strip_html | truncatewords: 20 }}</div>
