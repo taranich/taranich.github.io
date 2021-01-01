@@ -2,41 +2,44 @@
 layout: default
 ---
 	{% for post in paginator.posts %}
-		<ul class="write-ups">
-			<li><span>{{ post.date | date: "%Y.%d.%m" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}"><p>{{ post.excerpt }}</p></a></li>
+		<ul class="write-ups-list">
+			<li class="write-up-entry">
+        <span class="write-up-date">{{ post.date | date: "%Y.%d.%m" }}</span> »
+        <a class="write-up-link" href="{{ post.url }}" title="{{ post.title }}"><p class="write-up-excerpt">{{ post.excerpt }}</p></a>
+      </li>
 		</ul>
 	{% endfor %}
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">
+    <a class="pagination-previous-link" href="{{ paginator.previous_page_path | relative_url }}">
       &laquo; Prev
     </a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <span class="pagination-previous">&laquo; Prev</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>{{ page }}</em>
+      <em class="pagination-current-page">{{ page }}</em>
     {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | relative_url }}">
+      <a class="pagination-previous-link" href="{{ paginator.previous_page_path | relative_url }}">
         {{ page }}
       </a>
     {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
+      <a class="pagination-page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
         {{ page }}
       </a>
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">
+    <a class="pagination-next-link" href="{{ paginator.next_page_path | relative_url }}">
       Next &raquo;
     </a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span class="pagination-next">Next &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
