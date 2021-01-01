@@ -4,8 +4,10 @@ layout: default
 	{% for post in paginator.posts %}
 		<ul class="write-ups-list">
 			<li class="write-up-entry">
-        <span class="write-up-date">{{ post.date | date: "%Y.%d.%m" }}</span> »
-        <a class="write-up-link" href="{{ post.url }}" title="{{ post.title }}"><p class="write-up-excerpt">{{ post.content | markdownify | strip_html | truncatewords: 20 }}</p></a>
+        <span class="write-up-date">{{ post.date | date: "%Y.%d.%m" }}</span> » <a class="write-up-link" href="{{ post.url }}">
+          <div class="write-up-title">{{ post.title }}</div>
+          <div class="write-up-excerpt">{{ post.content | markdownify | strip_html | truncatewords: 20 }}</div>
+        </a>
       </li>
 		</ul>
 	{% endfor %}

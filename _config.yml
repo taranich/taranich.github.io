@@ -1,5 +1,5 @@
 name: Andriy Taranov
 #permalink: /write-ups/:year/:month/:day/:title
-paginate_path: "/write-ups/page:num/"
+paginate_path: "/write-ups/:num/"
 plugins: [jekyll-paginate]
 paginate: 2
