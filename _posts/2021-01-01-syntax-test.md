@@ -2,6 +2,7 @@
 layout: post
 title: Syntax test
 semiactive_page: write-ups
+permalink: /write-ups/:year/:month/:day/:title
 ---
 
 # h1 Heading 8-)
