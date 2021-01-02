@@ -27,8 +27,8 @@
 	<body>
 		<div class="textcontainer">
 			<ul class="menu">
-				<li class="menu"><a {% if page.active_page == "write-ups" %} class="active" {% elif page.semiactive_page == "write-ups" %} class = "semiactive" {% endif %} href="/index.html">write-ups</a></li>
-				<li class="menu"><a {% if page.active_page == "main-page" %} class="active" {% elif page.semiactive_page == "main-page" %} class = "semiactive" {% endif %} href="/index.html">@</a></li>
+				<li class="menu"><a {% if page.active_page == "write-ups" %} class="active" {% elsif page.semiactive_page == "write-ups" %} class = "semiactive" {% endif %} href="/index.html">write-ups</a></li>
+				<li class="menu"><a {% if page.active_page == "main-page" %} class="active" {% elsif page.semiactive_page == "main-page" %} class = "semiactive" {% endif %} href="/index.html">@</a></li>
 			</ul>
 			{{content}}
 		</div>
