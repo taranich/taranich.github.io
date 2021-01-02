@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Syntax test
+semiactive_page: write-ups
 ---
 
 # h1 Heading 8-)
