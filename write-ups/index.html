@@ -14,7 +14,7 @@ active_page: write-ups
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em class="pagination-current-page">{{ page }}</em>
+      <span class="pagination-current-page">{{ page }}</span>
     {% elsif page == 1 %}
       <a class="pagination-previous-link" href="{{ paginator.previous_page_path | relative_url }}">
         {{ page }}
