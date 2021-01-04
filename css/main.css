@@ -31,14 +31,14 @@ body{
 .textcontainer{
     font-family:Consolas, 'Courier New', monospace;
     color: rgb(212, 212, 212);
-    padding-top: 4em;
+    padding-top: 4rem;
     margin: 0 auto;
     width: 70%;
     flex: 1 0 auto;
 }
 
 .presenter{
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 ul.contact-bar{
@@ -69,7 +69,7 @@ li.menu {
 li.menu a {
     display: block;
     text-align: center;
-    padding: 8px 32px;
+    padding: 0.5rem 2rem;
     text-decoration: none;
     color: rgb(212, 212, 212);
 }
@@ -110,11 +110,11 @@ li.pagination{
 }
 
 li.pagination span{
-    padding: 4px 16px;
+    padding: 0.25rem 1rem;
 }
 
 li.pagination a{
-    padding: 4px 16px;
+    padding: 0.25rem 1rem;
 }
 
 ul.pagination li{
@@ -143,9 +143,10 @@ li.pagination a:hover{
 
 .write-ups-list{
     list-style-type: none;
+    font-size: 12pt;
 }
 .write-up-entry{
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 .write-up-link{
     font-size: 1.25rem;
@@ -160,19 +161,19 @@ li.pagination a:hover{
 }
 .write-up-excerpt{
     color: rgb(212,212,212);
-    margin-top: 5px;
+    margin-top: 0.2rem;
     font-size: 12pt;
 }
 .write-up-date{
     color: rgb(80, 80, 80);
-    font-size: 0.5em;
+    font-size: 0.75rem;
 }
 
 /* Footer */
 
 footer{
     flex-shrink: 0;
-    font-size:1em;
+    font-size:1rem;
     font-family:Consolas, 'Courier New', monospace;
     color: rgb(80, 80, 80);
     padding-bottom: 1rem;
@@ -180,8 +181,8 @@ footer{
 }
 
 footer ul{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 footer li{
