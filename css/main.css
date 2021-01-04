@@ -7,6 +7,7 @@ body{
     height:100%;
     margin: 0;
     color: rgb(212, 212, 212);
+    font-size: 12pt;
 }
 
 #lander {
@@ -58,6 +59,7 @@ li.contact-bar{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    font-size: 12pt;
 }
   
 li.menu {
@@ -104,7 +106,7 @@ li.menu a.active {
 }
 
 li.pagination{
-    font-size: initial;
+    font-size: 12pt;
 }
 
 li.pagination span{
@@ -159,7 +161,7 @@ li.pagination a:hover{
 .write-up-excerpt{
     color: rgb(212,212,212);
     margin-top: 5px;
-    font-size: initial;
+    font-size: 12pt;
 }
 .write-up-date{
     color: rgb(80, 80, 80);
