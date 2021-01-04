@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Syntax test
-section: CTF
+category: CTF
 semiactive_page: write-ups
 permalink: /write-ups/:year/:month/:day/:title
 ---
