@@ -15,7 +15,7 @@ active_page: write-ups
     {% if page == paginator.page %}
       <li class="pagination"><span class="pagination-current-page">{{ page }}</span></li>
     {% elsif page == 1  %}
-      <li class="pagination"><a class="pagination-page-link" href="{{ '/' | relative_url }}">{{ page }}</a></li>
+      <li class="pagination"><a class="pagination-page-link" href="{{ site.paginate_path | relative_url | replace: ':num/', '' }}">{{ page }}</a></li>
     {% else %}
       <li class="pagination"><a class="pagination-page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
