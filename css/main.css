@@ -80,6 +80,10 @@ li.menu a:visited{
     text-decoration: none;
 }
 
+li.menu a:active{
+    text-decoration: none;
+}
+
 li.menu a::before {
     padding-left: 1.5rem;
     content: '[';
