@@ -1868,7 +1868,6 @@ legend {
  display:block;
  position:absolute;
  right:50%;
- vertical-align:middle;
  content:"";
  border-style:none double solid;
  width:0;
@@ -1902,7 +1901,6 @@ legend {
 #layout label {
  display:block;
  cursor:pointer;
- vertical-align:middle;
  margin-bottom:10px
 }
 #layout label:last-child {
@@ -2246,7 +2244,7 @@ legend {
  margin:auto;
  position:relative;
  box-sizing:border-box;
- background:linear-gradient(145deg,#fb323f,#f3ca63,#94ee5f,#1f54f1,#ae10f1);
+ background:linear-gradient(145deg,#fb323f,#ffb700,#94ee5f,#1f54f1,#ae10f1);
  border-radius:5px;
  padding:3px;
  color:#fff
