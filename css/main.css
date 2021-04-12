@@ -49,6 +49,14 @@ ul.contact-bar{
 li.contact-bar{
     display: inline;
 }
+
+span.contact-bar{
+    /* display: inline-block; */
+    /* font-size: 0; */
+    /* vertical-align: text-bottom; */
+    margin-left: 2em;
+    white-space: nowrap;
+}
   
 /* Menu */
 
