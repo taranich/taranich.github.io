@@ -25,10 +25,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     border-style: none;
-    max-width: 70%;
+    width: 100%;
+    max-width: 600px;
   }
   
   .post-body code,
@@ -249,6 +250,7 @@
   }
   
   .post-body h2 {
+    margin-top: 3rem;
     font-size: 1.5em;
   }
   
