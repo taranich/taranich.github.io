@@ -3,7 +3,8 @@
   }
   
   .post-body li::marker{
-    color: rgb(212, 212, 0);
+    /* color: rgb(212, 212, 0); */
+    color: rgb(22,198,12)
   }
 
   .post-body summary {
@@ -67,7 +68,8 @@
     overflow: hidden;
     background: transparent;
     border: 0;
-    border-top: dashed 1px rgb(212, 212, 0);
+    /* border-top: dashed 1px rgb(212, 212, 0); */
+    border-top: dashed 2px rgb(22,198,12);
   }
   
   .post-body table {
@@ -224,7 +226,8 @@
     margin: 0;
     padding: 0 1em;
     background-color: rgb(40, 40, 40);
-    border-left: 2px solid rgb(212, 212, 0);
+    /* border-left: 2px solid rgb(212, 212, 0); */
+    border-left: 2px solid rgb(22,198,12);
   }
 
   .post-body h1{
@@ -341,7 +344,8 @@
   .post-body table thead tr {
     /* background-color:rgb(40, 40, 40);
     border-top: 1px solid #c6cbd1; */
-    color: rgb(212, 212, 0);
+    /* color: rgb(212, 212, 0); */
+    color: rgb(22,198,12);
   }
 
   .post-body table tr:nth-child(2n) {
