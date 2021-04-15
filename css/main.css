@@ -21,7 +21,11 @@ body{
     left: 0;
     z-index: -9999;
 }
-  
+
+.post{
+    margin-top:3rem;
+}
+
 .introcontainer{
     display: flex;
     flex-direction: column;
