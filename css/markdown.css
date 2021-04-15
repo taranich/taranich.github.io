@@ -12,8 +12,12 @@
   
   .post-body a {
     text-decoration: none;
-    color: rgb(212, 212, 212);
-    border-bottom: 2px solid rgb(212, 212, 0);
+    color: rgb(22,198,12);
+    /* border-bottom: 2px solid rgb(212, 212, 0); */
+  }
+
+  .post-body a:hover{
+    border-bottom: 2px solid rgb(22,198,12);
   }
 
   .post-body strong {
@@ -348,6 +352,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: -3rem;
+    margin-bottom: 3rem;
     display: block;
     text-align: center;
     width: 70%;
