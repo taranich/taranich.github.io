@@ -348,7 +348,7 @@
     background-color: rgb(50, 50, 50);
   }
   
-  .post-body img + em a + em{
+  .post-body img + em{
     margin-left: auto;
     margin-right: auto;
     margin-top: -3rem;
@@ -357,7 +357,17 @@
     text-align: center;
     width: 70%;
   }
-  
+
+  .post-body a + em{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    display: block;
+    text-align: center;
+    width: 70%;
+  }
+
   .post-body img[align=right] {
     padding-left: 20px;
   }
