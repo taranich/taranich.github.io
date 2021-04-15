@@ -273,7 +273,7 @@ li.pagination a:hover{
     color: rgb(22,198,12);
 }
 .write-up-link:hover{
-    border-bottom: 1px solid rgb(22,198,12);
+    border-bottom: 2px solid rgb(22,198,12);
     /* border-bottom: 2px solid rgb(212, 212, 0); */
 }
 .write-up-category{

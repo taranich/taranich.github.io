@@ -348,7 +348,7 @@
     background-color: rgb(50, 50, 50);
   }
   
-  .post-body img + em{
+  .post-body img + em a + em{
     margin-left: auto;
     margin-right: auto;
     margin-top: -3rem;
